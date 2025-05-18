@@ -14,7 +14,7 @@ export default function AboutUs() {
             </p>
 
             <p className={text_styles.bigger}>
-                We strive to connect the Upper Peninsula with the rest of the <i>FIRST</i> Robotics community every year. You'll see us at local <i>FIRST</i> Robotics Competition and <i>FIRST</i> Tech Challenge events, as well as local community events built to make the Upper Peninsula stronger.
+                We strive to connect the Upper Peninsula with the rest of the <i>FIRST</i> Robotics community every year. You&apos;ll see us at local <i>FIRST</i> Robotics Competition and <i>FIRST</i> Tech Challenge events, as well as local community events built to make the Upper Peninsula stronger.
             </p>
           </div>
           <div className={styles.section}>
@@ -43,7 +43,7 @@ export default function AboutUs() {
                     <b>Orientation Week Bonfire</b>
                   </p>
                   <p className={text_styles.small}>
-                   At Prince's Point on August 19th at 5:00 PM
+                   At Prince&apos;s Point on August 19th at 5:00 PM
                   </p>
                 </div>
                 <div className={styles.chip} onClick={() => {
@@ -65,7 +65,7 @@ export default function AboutUs() {
                 Email our Executive Board at <b>ccr-contact@mtu.edu</b> with your inquiries, and we will get back to you shortly!
               </p>
               <p className={text_styles.bigger}>
-                We're also present at many of the community local events in the area, including the <b>Robot Fair Play booth</b>, <b>Superior MakerFest</b>, <b>Superior Robowork's FRC Kickoff</b>, and more!
+                We&apos;re also present at many of the community local events in the area, including the <b>Robot Fair Play booth</b>, <b>Superior MakerFest</b>, <b>Superior Robowork&apos;s FRC Kickoff</b>, and more!
               </p>
             
             </div>
@@ -76,7 +76,7 @@ export default function AboutUs() {
         <div className={styles.section}>
           <h1>Building a Network of Mentors and Teams</h1>
           <p className={text_styles.bigger}>
-              Every year, our goal is to engage with more and more FRC teams around the Upper Peninsula. Across the last few years, we've made quite a lasting impact on teams throughout the UP.
+              Every year, our goal is to engage with more and more FRC teams around the Upper Peninsula. Across the last few years, we&apos;ve made quite a lasting impact on teams throughout the UP.
           </p>
           <p className={text_styles.bigger}>
               We celebrate and recognize our mentors and the teams that allow us to <b>expand and grow the network of engaged <i>FIRST</i> Alumni!</b>
@@ -140,7 +140,7 @@ export default function AboutUs() {
                 <b>Team 6558</b>
               </p>
               <p className={text_styles.small}>
-                Aluminum Sting of L'Anse, MI
+                Aluminum Sting of L&apos;Anse, MI
               </p>
             </div>
             <div className={styles.chip} onClick={() => {
