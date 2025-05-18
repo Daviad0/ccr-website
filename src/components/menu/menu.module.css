@@ -1,0 +1,149 @@
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+/* Menu button styles */
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu .mediaBar {
+  width: 100%;
+  display: flex;
+  border-top: 2px solid var(--box);
+  padding: 10px;
+  background-color: var(--background);
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu li {
+  flex: 1;
+  text-align: center;
+  transition: background-position 0.3s ease, filter 0.3s ease,
+    font-weight 0.3s ease;
+  cursor: pointer;
+
+  filter: brightness(0.9);
+}
+
+.menu .yellow{
+  transition: background-position 0.3s ease, color 0.3s ease, filter 0.3s ease,
+    font-weight 0.3s ease;
+}
+
+.menu li:active {
+  filter: brightness(1);
+}
+
+.menu .selected {
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: bold;
+
+  background-position: 0% 100%;
+
+  filter: brightness(1);
+}
+
+.menu .yellow.selected{
+  color: var(--background)
+}
+
+.menu .selected {
+  color: var(--white);
+  font-weight: bold;
+  filter: brightness(1);
+}
+
+@media screen and (min-width: 800px) {
+  /* Per https://liamhunt.blog/posts/css-sliding-background */
+  .menu li {
+    padding: 25px;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    background-image: linear-gradient(
+      to bottom,
+      var(--box) 50%,
+      var(--primary) 50%
+    );
+  }
+
+  .menu .yellow{
+    padding: 25px;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    background-image: linear-gradient(
+      to bottom,
+      var(--box) 50%,
+      var(--secondary) 50%
+    );
+  }
+
+  .menu li:hover {
+    color: var(--white);
+    background-position: 0% 100%;
+  }
+
+  .menu .yellow:hover {
+    color: var(--background);
+    background-position: 0% 100%;
+  }
+
+
+  .menu .selected {
+    background-position: 0% 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .menu ul{
+    flex-direction: column;
+  }
+
+  .menu li {
+    padding: 10px;
+    background-size: 200% 100%;
+    background-position: 100% 0%;
+    background-image: linear-gradient(
+      to right,
+      var(--primary) 50%,
+      var(--box) 50%
+    );
+  }
+
+  .menu .yellow {
+    padding: 10px;
+    background-size: 200% 100%;
+    background-position: 100% 0%;
+    background-image: linear-gradient(
+      to right,
+      var(--secondary) 50%,
+      var(--box) 50%
+    );
+  }
+
+  .menu li:hover {
+    color: var(--white);
+    background-position: 0% 0%;
+  }
+
+  .menu .yellow:hover {
+    color: var(--background);
+    background-position: 0% 0%;
+  }
+
+  .menu .selected {
+    background-position: 0% 0%;
+  }
+  
+}

@@ -1,0 +1,38 @@
+.banner{
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    background: linear-gradient(
+          var(--background-dim), 
+          var(--background)
+        ), url('/images/ri3dbanner.jpg');
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.banner .title{
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--white);
+    text-align: center;
+}
+
+.banner .subtitle{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--white);
+    text-align: center;
+}
+
+.banner .options{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}

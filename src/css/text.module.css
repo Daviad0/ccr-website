@@ -1,0 +1,19 @@
+.small{
+    font-size: 0.8em;
+}
+
+.medium{
+    font-size: 1em;
+}
+
+.bigger{
+    font-size: 1.2em;
+}
+
+.large{
+    font-size: 1.5em;
+}
+
+.huge{
+    font-size: 2em;
+}

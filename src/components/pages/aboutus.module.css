@@ -1,0 +1,65 @@
+.pagecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.section .box{
+    background-color: var(--box);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section .chips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.section .chip{
+    background-color: var(--white);
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: var(--background);
+    font-size: 1.2rem;
+    max-width: 50%;
+    cursor: pointer;
+}
+
+.section .fixedchip{
+    background-color: var(--white);
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: var(--background);
+    font-size: 1.2rem;
+    width: 400px;
+    cursor: pointer;
+}
+
+.section h1{
+    margin-bottom: 10px;
+}
+
+.section h2{
+    margin-bottom: 10px;
+}
+
+.section p{
+    margin-bottom: 5px;
+}
+
+.chip p{
+    margin: 0;
+}
