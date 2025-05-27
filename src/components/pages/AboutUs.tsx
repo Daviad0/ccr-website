@@ -71,9 +71,7 @@ export default function AboutUs() {
             </div>
           
           </div>
-        </div>
-
-        <div className={styles.section}>
+          <div className={styles.section}>
           <h1>Building a Network of Mentors and Teams</h1>
           <p className={text_styles.bigger}>
               Every year, our goal is to engage with more and more FRC teams around the Upper Peninsula. Across the last few years, we&apos;ve made quite a lasting impact on teams throughout the UP.
@@ -195,6 +193,9 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
+        </div>
+
+        
         
     </div>
   );
