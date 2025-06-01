@@ -19,7 +19,7 @@ export default function Sponsoring() {
                     Show your support for Robot in 3 Days by helping to cover meals, parts, and more!
                   </i>
                 </p>
-                <h3>What You'll Receive</h3>
+                <h3>What You&apos;ll Receive</h3>
                 <div className={styles.chips}>
                   <div className={styles.chip}>
                     <p className={text_styles.medium}>
@@ -56,7 +56,7 @@ export default function Sponsoring() {
                     Allow us to develop better materials to help the FIRST Robotics community worldwide!
                   </i>
                 </p>
-                <h3>What You'll Receive</h3>
+                <h3>What You&apos;ll Receive</h3>
                 <div className={styles.chips}>
                   <div className={styles.chip}>
                     <p className={text_styles.medium}>
@@ -87,7 +87,7 @@ export default function Sponsoring() {
                     Take our production and equipment to the next level by covering major logistical items!
                   </i>
                 </p>
-                <h3>What You'll Receive</h3>
+                <h3>What You&apos;ll Receive</h3>
                 <div className={styles.chips}>
                   <div className={styles.chip}>
                     <p className={text_styles.medium}>
@@ -134,7 +134,7 @@ export default function Sponsoring() {
                     Become a presenting sponsor to connect with our team and brand identity!
                   </i>
                 </p>
-                <h3>What You'll Receive</h3>
+                <h3>What You&apos;ll Receive</h3>
                 <div className={styles.chips}>
                   <div className={styles.chip}>
                     <p className={text_styles.medium}>
